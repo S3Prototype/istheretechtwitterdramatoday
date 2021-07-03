@@ -8,7 +8,22 @@ export default function Home() {
       <Head>
         <title>Is There Tech Twitter Drama Today?</title>
         <meta name="description" content="Is there tech twitter drama today? We know you're wondering. So here's the answer." />
+        <meta property="og:image" content="https://www.pinclipart.com/picdir/big/82-822786_cartoon-angry-emoji-pictures-to-pin-on-pinterest.png" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="keywords" content="Twitter,Drama,Tech twitter" />
+        <meta name="author" content="Shaquil Hansford" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:description"
+          content="Is there tech twitter drama today? We know you're wondering. So here's the answer."
+        />
+        <meta name="twitter:title" content="Is There Tech Twitter Drama Today?" />
+        <meta name="twitter:site" content="@shaquilhansford" />
+        <meta
+          name="twitter:image"
+          content="https://www.pinclipart.com/picdir/big/82-822786_cartoon-angry-emoji-pictures-to-pin-on-pinterest.png"
+        />
+        <meta name="twitter:creator" content="@shaquilhansford" />
       </Head>
 
       <main className={styles.main}>
