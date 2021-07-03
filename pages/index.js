@@ -25,7 +25,7 @@ export default function Home() {
         </span>
 
         <p className={styles.reason}>
-          Some guy in India catfishing as a girl from Russia to sell ebooks. Yes, that's true. That's happening.
+          {process.env.NEXT_PUBLIC_REASON}
         </p>
 
         <span className={styles.check_it_out_title}>
@@ -33,7 +33,7 @@ export default function Home() {
         </span>
 
         <p className={styles.check_it_out}>
-          What? No!
+          {process.env.NEXT_PUBLIC_CHECK_IT_OUT}
         </p>
 
         <span className={styles.check_it_out_title}>
@@ -41,7 +41,7 @@ export default function Home() {
         </span>
 
         <p style={{fontSize:'5rem'}}>
-          🙄
+          {process.env.NEXT_PUBLIC_WHERE}          
         </p>
       </main>
     </div>
