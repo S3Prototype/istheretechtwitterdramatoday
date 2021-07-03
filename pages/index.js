@@ -15,13 +15,13 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:description"
-          content="Is there tech twitter drama today? We know you're wondering. So here's the answer."
+          content="We know you're wondering. So here's the answer."
         />
         <meta name="twitter:title" content="Is There Tech Twitter Drama Today?" />
         <meta name="twitter:site" content="@shaquilhansford" />
         <meta
           name="twitter:image"
-          content="https://www.pinclipart.com/picdir/big/82-822786_cartoon-angry-emoji-pictures-to-pin-on-pinterest.png"
+          content="../public/icon.png"
         />
         <meta name="twitter:creator" content="@shaquilhansford" />
       </Head>
