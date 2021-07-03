@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content="Twitter,Drama,Tech twitter" />
         <meta name="author" content="Shaquil Hansford" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:description"
           content="We know you're wondering. So here's the answer."
@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="twitter:site" content="@shaquilhansford" />
         <meta
           name="twitter:image"
-          content="../public/icon.png"
+          content="https://www.pinclipart.com/picdir/big/82-822786_cartoon-angry-emoji-pictures-to-pin-on-pinterest.png"
         />
         <meta name="twitter:creator" content="@shaquilhansford" />
       </Head>
